@@ -29,7 +29,6 @@ body {
   padding-left: 0;
   display: flex;
   gap: 40px;
-  justify-content: flex-start;
 }
 
 .list {
@@ -44,6 +43,8 @@ body {
 .link-contacts {
   font-weight: 400;
   color: var(--text);
+  display: inline-block;
+  padding: 24px;
 }
 
 .link:hover,
@@ -192,9 +193,6 @@ body {
   margin: auto;
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  padding: 24px 0;
   border-bottom: 1px solid var(--accent);
 }
 .heading-flex {
@@ -221,9 +219,11 @@ body {
 }
 .navigation {
   display: flex;
+  align-items: center;
 }
 .link-menu {
   padding: 24px 0 24px 0;
+  display: inline-block;
 }
 .list-address {
   display: flex;
@@ -232,7 +232,8 @@ body {
   padding: 24px 0px 24px 0px;
 }
 .header-flex {
-  padding: 24 px;
+  display: flex;
+  justify-content: space-between;
 }
 .section-feature {
   padding: 120px 0;
