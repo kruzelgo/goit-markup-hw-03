@@ -27,6 +27,8 @@ body {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  display: flex;
+  gap: 40px;
 }
 
 .list {
@@ -56,6 +58,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
 }
 .logo-studio {
   color: var(--dark);
@@ -177,14 +180,15 @@ body {
   font-style: normal;
 }
 .conteiner {
-  max-width: 1158px;
-  padding: 15px;
+  width: 1158px;
+  padding: 0 15px 0 15px;
   margin: auto;
 }
 .header {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  justify-content: space-between;
+
+  border-bottom: 1px solid var(--accent);
 }
 .heading-flex {
   display: flex;
@@ -206,4 +210,15 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.link-menu {
+  padding: 24px 0 24px 0;
+}
+.list-address{
+  display:flex
+  gap:40px;
 }
