@@ -112,10 +112,12 @@ body {
 .filter-button-main:hover {
   background: var(--pressed-state);
   color: var(--white-background);
+  border: 1px solid transparent;
 }
 .footer {
   background-color: var(--dark);
   color: var(--light);
+  padding: 100px 0;
 }
 .title {
   font-size: 20px;
@@ -135,6 +137,7 @@ body {
   color: var(--light);
   font-weight: 400;
   margin: 0;
+  max-width: 264px;
 }
 .heading {
   font-size: 56px;
@@ -270,4 +273,39 @@ body {
 }
 .position {
   text-align: center;
+}
+.link-footer {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+.portfolio-menu {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.portfolio-button {
+  padding: 12px 24px;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+}
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-img {
+  width: calc((100% - 48px) / 3);
+}
+.name-category {
+  padding: 32px 16px;
+  border: 1px solid var(--accent);
+  border-top: none;
+  margin-bottom: 8px;
 }
