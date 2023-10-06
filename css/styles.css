@@ -29,6 +29,7 @@ body {
   padding-left: 0;
   display: flex;
   gap: 40px;
+  justify-content: flex-start;
 }
 
 .list {
@@ -95,13 +96,14 @@ body {
   color: var(--white-background);
   font-family: "Roboto", sans-serif;
   cursor: pointer;
-  display: inline-flex;
+  display: block;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
+  min-width: 169px;
 }
 
 .filter-button:hover,
@@ -170,6 +172,7 @@ body {
 }
 .section-heading {
   background-color: var(--dark);
+  padding: 188px 0;
 }
 .team {
   background-color: var(--white-background);
@@ -179,7 +182,7 @@ body {
 .address {
   font-style: normal;
 }
-.conteiner {
+.container {
   width: 1158px;
   padding: 0 15px 0 15px;
   margin: auto;
@@ -192,7 +195,8 @@ body {
 }
 .heading-flex {
   display: flex;
-  align-items: center;
+  justify-content: center;
+  max-width: 496px;
 }
 .img {
   display: block;
@@ -213,12 +217,21 @@ body {
 }
 .navigation {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
 }
 .link-menu {
   padding: 24px 0 24px 0;
 }
-.list-address{
-  display:flex
-  gap:40px;
+.list-address {
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  padding: 24px 0px 24px 0px;
+}
+.header-flex {
+  padding: 24 px;
+}
+.section-feature {
+  padding: 120px 0;
 }
