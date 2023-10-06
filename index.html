@@ -4,54 +4,66 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link href="./css/styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link href="./css/styles.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header>
-      <nav>
-        <a href="./index.html" class="logo-link link"
-          >Web<span class="logo-studio">Studio</span></a
-        >
-        <ul class="list">
-          <li>
-            <a href="./index.html" class="link">Studio</a>
-          </li>
-          <li>
-            <a href="./portfolio.html" class="link">Portfolio</a>
-          </li>
-          <li><a href="" class="link">Contacts</a></li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a href="mailto:info@devstudio.com" class="link-contacts link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+110001111111" class="link-contacts link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header">
+      <div class="conteiner">
+        <nav>
+          <a href="./index.html" class="logo-link link"
+            >Web<span class="logo-studio">Studio</span></a
+          >
+          <ul class="list-navigation">
+            <li>
+              <a href="./index.html" class="link">Studio</a>
+            </li>
+            <li>
+              <a href="./portfolio.html" class="link">Portfolio</a>
+            </li>
+            <li><a href="" class="link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="list">
+            <li>
+              <a href="mailto:info@devstudio.com" class="link-contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a href="tel:+110001111111" class="link-contacts link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="section-heading">
-        <h1 class="heading">Effective Solutions for Your Business</h1>
-        <button type="button" class="filter-button-main">Order Service</button>
+        <div class="conteiner">
+          <h1 class="heading heading-flex">
+            Effective Solutions for Your Business
+          </h1>
+          <button type="button" class="filter-button-main heading-flex">
+            Order Service
+          </button>
+        </div>
       </section>
 
       <section>
-        <h2>.</h2>
+        <h2 class="visually-hidden">.</h2>
         <ul class="list">
           <li>
             <h3 class="heading-third">Strategy</h3>
@@ -88,6 +100,7 @@
         <ul class="list">
           <li>
             <img
+              class="img"
               src="./images/img1.jpg"
               alt="computer monitor showing website"
               width="360"
@@ -96,6 +109,7 @@
           </li>
           <li>
             <img
+              class="img"
               src="./images/img2.jpg"
               alt="a mobile with the application displayed and 3 additional screens floating above it"
               width="360"
@@ -104,6 +118,7 @@
           </li>
           <li>
             <img
+              class="img"
               src="./images/img3.jpg"
               alt="in the foreground you can see a hand holding a mobile with an open website, in the background you can see a laptop with the same website"
               width="360"
@@ -113,52 +128,58 @@
         </ul>
       </section>
       <section class="section-team">
-        <h2 class="heading-second">Our Team</h2>
-        <ul class="list">
-          <li class="team">
-            <img
-              src="./images/teamcard1.jpg"
-              alt="man in a blue shirt with brown beard"
-              width="264"
-              height="260"
-            />
-            <h3 class="heading-third">Mark Guerrero</h3>
-            <p class="paragraph">Product Designer</p>
-          </li>
+        <div class="conteiner">
+          <h2 class="heading-second">Our Team</h2>
+          <ul class="list">
+            <li class="team">
+              <img
+                class="img"
+                src="./images/teamcard1.jpg"
+                alt="man in a blue shirt with brown beard"
+                width="264"
+                height="260"
+              />
+              <h3 class="heading-third">Mark Guerrero</h3>
+              <p class="paragraph">Product Designer</p>
+            </li>
 
-          <li class="team">
-            <img
-              src="./images/teamcard2.jpg"
-              alt="man in a blue shirt with short stubble"
-              width="264"
-              height="260"
-            />
-            <h3 class="heading-third">Tom Ford</h3>
-            <p class="paragraph">Frontend Developer</p>
-          </li>
+            <li class="team">
+              <img
+                class="img"
+                src="./images/teamcard2.jpg"
+                alt="man in a blue shirt with short stubble"
+                width="264"
+                height="260"
+              />
+              <h3 class="heading-third">Tom Ford</h3>
+              <p class="paragraph">Frontend Developer</p>
+            </li>
 
-          <li class="team">
-            <img
-              src="./images/teamcard3.jpg"
-              alt="women in pink sweater and long brown hair"
-              width="264"
-              height="260"
-            />
-            <h3 class="heading-third">Camila Garcia</h3>
-            <p class="paragraph">Marketing</p>
-          </li>
+            <li class="team">
+              <img
+                class="img"
+                src="./images/teamcard3.jpg"
+                alt="women in pink sweater and long brown hair"
+                width="264"
+                height="260"
+              />
+              <h3 class="heading-third">Camila Garcia</h3>
+              <p class="paragraph">Marketing</p>
+            </li>
 
-          <li class="team">
-            <img
-              src="./images/teamcard4.jpg"
-              alt="man in a grey t-shirt with short stubble"
-              width="264"
-              height="260"
-            />
-            <h3 class="heading-third">Daniel Wilson</h3>
-            <p class="paragraph">UI Designer</p>
-          </li>
-        </ul>
+            <li class="team">
+              <img
+                class="img"
+                src="./images/teamcard4.jpg"
+                alt="man in a grey t-shirt with short stubble"
+                width="264"
+                height="260"
+              />
+              <h3 class="heading-third">Daniel Wilson</h3>
+              <p class="paragraph">UI Designer</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
