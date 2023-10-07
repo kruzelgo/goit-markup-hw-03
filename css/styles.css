@@ -126,6 +126,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
+  margin-bottom: 8px;
 }
 .paragraph {
   font-weight: 400;
@@ -240,7 +241,7 @@ body {
 }
 .list-feature {
   display: flex;
-  gap: 24 px;
+  gap: 24px;
 }
 .list-feature-first {
   width: calc((100% - 72px) / 4);
