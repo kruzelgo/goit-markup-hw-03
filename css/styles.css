@@ -54,7 +54,6 @@ body {
   font-weight: 400;
   color: var(--text);
   display: inline-block;
-  padding: 24px;
 }
 
 .link:hover,
@@ -115,6 +114,7 @@ body {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   min-width: 169px;
+  margin: 0 auto;
 }
 
 .filter-button:hover,
@@ -159,7 +159,7 @@ body {
   line-height: 1.07;
   text-align: center;
   width: 496px;
-  margin: 0;
+  margin: 0 auto 48px auto;
 }
 .heading-third {
   font-size: 20px;
@@ -181,7 +181,6 @@ body {
   margin-bottom: 72px;
 }
 .heading-flex {
-  display: flex;
   justify-content: center;
   max-width: 496px;
 }
@@ -196,6 +195,8 @@ body {
 .section-heading {
   background-color: var(--dark);
   padding: 188px 0;
+  display: block;
+  column-gap: 48px;
 }
 .team {
   background-color: var(--white-background);
